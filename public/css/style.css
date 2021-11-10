@@ -1,0 +1,444 @@
+header.contact {
+    position: relative;
+    width: 100%;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact .logo {
+    text-align: center;
+}
+
+.contact .logo img {
+    vertical-align: middle;
+    width: 150px;
+    height: 100px;
+}
+
+.navigation {
+    position: relative;
+    width: 100%;
+    top: 0;
+    margin: auto;
+    padding: 0 5%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    color: black;
+    transition: all .5s ease;
+}
+
+.navigation .logo {
+    text-align: center;
+    flex: 25%;
+    color: black;
+    font-weight: bold;
+}
+
+.navgation .logo img {
+    vertical-align: middle;
+    width: 100px;
+    height: 70px;
+}
+
+.navigation .navMenu {
+    flex: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 50px;
+}
+
+.navigation .navMenu .menu {
+    padding: 0 25px;
+    cursor: pointer;
+    transition: 0s;
+    color: black;
+}
+
+.navigation .navMenu .menu:hover {
+    color: #666;
+}
+
+.form-wrapper {
+    width: 60%;
+    margin: 5% auto;
+    border: 1px solid #666;
+    border-radius: 16px;
+}
+
+.form-wrapper h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1rem 0;
+    border-bottom: 1px solid #666;
+}
+
+.form-wrapper form {
+    margin: 3%;
+}
+
+.form-item {
+    margin-bottom: 0.75em;
+    width: 100%;
+}
+
+.form-item .required {
+    color: red;
+}
+
+.form-item input {
+    background: #fafafa;
+    border: none;
+    border: 1px solid #666;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    height: 50px;
+    transition: border-color 0.3s;
+    width: 100%;
+}
+
+.form-item input:focus {
+    border: 1px solid #c0c0c0;
+    outline: none;
+}
+
+.form-item #genre {
+    background: #fafafa;
+    border: none;
+    border: 1px solid #666;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    height: 30px;
+    width: 100%;
+}
+
+.form-item textarea {
+    resize: none;
+    width: 100%;
+    height: 33vh;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    border-radius: 8px;
+    border: 1px solid #666;
+}
+
+.button-panel {
+    margin: 2em 0;
+}
+
+.button-panel .button {
+    background-color: #008db7;
+    border: 1px solid #008db7;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+.button-panel .sbmtBtn {
+    width: 40%;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    margin-left: 30%;
+    background-color: transparent;
+    border: 2px solid #008db7;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #008db7;
+}
+
+.upper2 .editBtn {
+    width: 70%;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid #008db7;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #008db7;
+}
+
+.button-panel .backBtn {
+    width: 40%;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: transparent;
+    border: 2px solid #ff8c00;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ff8c00;
+}
+
+.button-panel .dltBtn {
+    width: 60%;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    margin-left: 20%;
+    background-color: transparent;
+    border: 2px solid #ff0082;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ff0082;
+}
+
+.passBtn a {
+    color: #008db7;
+    text-align: center;
+    margin-left: 41%;
+}
+
+.span {
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+.contactBox {
+    margin: 5% auto;
+    border: 1px solid #666;
+    width: 40%;
+    border-radius: 16px;
+}
+
+.contactBox h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: #666;
+}
+
+.contactBox form {
+    margin: 3%;
+}
+
+.contactBox p {
+    font-weight: normal;
+}
+
+.contactBox .required {
+    color: red;
+}
+
+.contactBox dl {
+    margin: 2% 0;
+}
+
+.contactBox dd {
+    padding: 0.5% 0 1%;
+    font-size: 1.2rem;
+}
+
+.contactBox input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    border-radius: 8px;
+    border: 1px solid #666;
+}
+
+.completeMsg {
+    padding: 3%;
+    text-align: center;
+}
+
+.completeMsg p {
+    text-align: center;
+}
+
+.completeMsg a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mpBox {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.mpBox h2 {
+    color: #008db7;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: #008db7;
+}
+
+.upper2 {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.upper2 h2 {
+    color: #008db7;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: #008db7;
+}
+
+.upper2 a:hover {
+    transition: 0.5s;
+    color: rgb(87, 87, 87);
+}
+
+.upper2 p {
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.allposts {
+    margin: 5% auto;
+}
+
+.posts .image img {
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.allposts .posts p {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+.allposts .posts .post .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+/* .allposts p:before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    display: inline-block;
+    width: 50%;
+    height: 3.5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 5px;
+} */
+
+.posts {
+    margin: 5% auto;
+    border: 1px solid #666;
+    width: 60%;
+    border-radius: 16px;
+}
+
+.allposts .posts .post-end {
+    color: #3b3b3b;
+    text-align: center;
+}
+
+.search h2 {
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
+    color: #3b3b3b;
+}
+
+.search .search2  {
+    text-align: center;
+    line-height: 18px;
+}
+
+.upper {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/img/consert3.jpg");
+}
+
+.upper .concept {
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    top: 200px;
+    color: #666;
+    left: 35%;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.goods_btn:hover {
+    color: #ff5e00;
+}
+
+.fas1{
+    color: red;
+    font-weight: bold;
+}
+
+.fas2 {
+    color: blue;
+    font-weight: bold;
+}
+
+.jump {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 3rem;
+    line-height: 3rem;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    background-color: #008db7;
+    border-radius: 20px;
+    padding: 0 10px;
+    transition: all .3s ease;
+    display: none;
+}
+
+span {
+    color: red;
+}
+
+.pages .pagination {
+    margin: 0 auto;
+    text-align: center;
+    color: #3b3b3b;
+}
